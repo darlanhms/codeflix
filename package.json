@@ -4,7 +4,7 @@
   "description": "Nest + microservice course",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -19,7 +19,11 @@
   "homepage": "https://github.com/darlanhms/codeflix#readme",
   "dependencies": {},
   "devDependencies": {
+    "@swc/core": "^1.2.177",
+    "@swc/jest": "^0.2.20",
+    "@types/jest": "^27.5.0",
     "@types/node": "14.14.31",
+    "jest": "^28.0.3",
     "ts-node": "^10.7.0",
     "typescript": "^4.6.4"
   }
